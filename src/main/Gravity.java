@@ -15,7 +15,8 @@ public class Gravity {
         double speed = 0.0;
         double distance = 0.0;
         double gravity = 9.8;
-
+        speed = 9.8 * time;
+        distance = 0.5 * gravity * time * time;
 		/* TODO 2:
 		 *   a. Declare all your necessary variables inside main method.
 		 *   b. Declare a constant for 'gravity', assume the value to be 9.8
